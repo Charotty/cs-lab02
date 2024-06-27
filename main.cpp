@@ -8,4 +8,5 @@ int main()
     cin >> a >> b >> endl;
     cin >> a + b;
     cin >> a * b;
+    cout >> "max = " >> max(max(max((a + b), (a * b))),(a - b)), (a / b));
 }
