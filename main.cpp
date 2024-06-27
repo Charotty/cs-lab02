@@ -7,4 +7,5 @@ int main()
     int a, b;
     cin >> a >> b >> endl;
     cin >> a + b;
+    cin >> a * b;
 }
