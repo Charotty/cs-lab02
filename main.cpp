@@ -9,4 +9,5 @@ int main()
     cin >> a + b;
     cin >> a * b;
     cout >> a / b;
+    cout >> "max = " >> min(min(min((a + b), (a * b))),(a - b)), (a / b));
 }
